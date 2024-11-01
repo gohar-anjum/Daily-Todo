@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+}
+.main{
+    padding: 30px 20px;
+    width: 100%;
+    height: 100%;
+}
+.left{
+    border: .1px solid black;
+    width:23%;
+    height: 80%;
+    background-color: #2B2B2B;
+    border-radius: 20px;
+}
+.logo{
+    margin-top: 30px;
+    margin-left: 40px;
+    text-align: right;
+    padding: 8px 18px;
+    width: 100%;
+    background-color: #B8FB4B;
+    font-size: 30px;
+    font-weight: 800;
+}
+.tabs{
+    margin-left: 25px;
+    margin-top: 60px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+.item1{
+    width: 90%;
+    border-radius: 4px;
+    display: flex;
+    gap: 15px;
+    padding: 10px 24px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.item1:hover{
+    transition: .2s;
+    background-color: #B8FB4B;
+    color: black !important;
+}
+.item1:hover a{
+    font-weight: 500;
+    color: black !important;
+}
+.item1:hover i{
+    font-weight: 500;
+    color: black !important;
+}
+.item1 a{
+    text-decoration: none;
+    color: #fff;
+}
+.item1 i{
+    text-decoration: none;
+    color: #fff;
+}
+#home{
+    background-color: #B8FB4B;
+    color: #000;
+    font-weight: 500;
+}
+#home>a{
+    font-weight: 500;
+    color: #000;
+}
+#home>i{
+    font-weight: 500;
+    color: #000;
+}
+
+
