@@ -103,11 +103,25 @@ html, body{
     color: #fff;
 }
 .searchbar button{
+    cursor: pointer;
     background-color: #B8FB4B;
     border: none;
     border-radius: 15px;
     padding: 4px 15px;
     font-weight: 500;
+}
+.searchIndI{
+    width: 82%;
+}
+.searchIndI input{
+    margin-left: 15px;
+    width: 80%;
+    background-color: transparent;
+    border: none;
+}
+.searchIndI input:focus{
+    outline: none;
+    color: #fff;
 }
 
 
